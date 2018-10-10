@@ -10,7 +10,7 @@ CONSUMER_SECRET = environ['CONSUMER_SECRET']
 ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
 
-TIMEOUT = datetime.timedelta(days=13).seconds
+TIMEOUT = datetime.timedelta(seconds=1123200).seconds
 twitter = Twython(CONSUMER_KEY,
                   CONSUMER_SECRET,
                   ACCESS_KEY,
