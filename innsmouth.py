@@ -11,10 +11,10 @@ ACCESS_KEY = environ['ACCESS_KEY']
 ACCESS_SECRET = environ['ACCESS_SECRET']
 
 TIMEOUT = datetime.timedelta(days=13).seconds
-twitter = Twython("YOUR API KEY",
-                  "YOUR API SECRET",
-                  "YOUR ACCESS TOKEN",
-                  "YOUR ACCESS TOKEN SECRET")
+twitter = Twython(CONSUMER_KEY,
+                  CONSUMER_SECRET,
+                  ACCESS_KEY,
+                  ACCESS_SECRET)
 
 
 def reservoir(iterator):
