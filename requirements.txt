@@ -1,0 +1,2 @@
+Twisted==18.7.0
+twython==3.7.0
